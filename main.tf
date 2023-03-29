@@ -1,6 +1,6 @@
 provider "aws" {
-  shared_credentials_file = "/Users/briti/.aws/credentials"
-  profile                 = "default"
+  access_key = "AKIAS4RY27TJ3N4MRIBL"
+  secret_key = "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"
   region     = "ap-south-1"
 }
 
