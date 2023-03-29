@@ -1,5 +1,5 @@
 provider "aws" {
-  shared_credentials_file = "/Users/briti/.aws/credentials"
+  shared_credentials_file = "\Users\briti\.aws\credentials"
   region     = "ap-south-1"
 }
 
