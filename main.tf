@@ -1,7 +1,5 @@
 provider "aws" {
   region = "us-west-2"
-  access_key = "AKIAS4RY27TJ5QHM4DWS"
-  secret_key = "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"
 }
 resource "aws_instance" "tfvm" {
   ami = "ami-0735c191cf914754d"
@@ -14,7 +12,7 @@ resource "aws_instance" "tfvm" {
                 nohup busybox httpd -f -p 8080 &
                 EOF
     tags = {
-      Name = "WEB-Terra"
+      Name = "WEB-TerraDemo"
     }
 }
 resource "aws_security_group" "websg" {
